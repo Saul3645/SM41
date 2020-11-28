@@ -54,7 +54,8 @@ const UserScreen = (props) => {
               
             />
             <ListItem.Content>
-              <ListItem.Title>{user.name}</ListItem.Title>
+              <ListItem.Title>{user.name} {user.materno} {user.paterno}</ListItem.Title>
+              <ListItem.Subtitle>Edad: {user.edad}</ListItem.Subtitle>
               <ListItem.Subtitle>{user.email}</ListItem.Subtitle>
             </ListItem.Content>
           </ListItem>
